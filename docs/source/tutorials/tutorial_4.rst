@@ -5,9 +5,9 @@ In this tutorial, we'll use the blocks we built in the previous tutorial
 to create a themed block application. We'll import them and build a dag.
 
 Remember that in the previous tutorial, we made ``UserInput``
-an :class:`sier2.InputBlock`. This has three effects.
+a :class:`sier2.InputBlock`. This has three effects.
 
-* When the block is displayed, it has a "Continue" button added. When selected, it calls ``dag.execute()``.
+* When the block is displayed, it has a "Continue" button added. When clicked, it calls ``dag.execute()``.
 * When the dag executes, it will stop executing when it reaches an ``InputBlock``. This allows the user to provide input, and continue executing the dag (by pressing the "Continue" button).
 * If the the block has pending input, the block's ``prepare()`` method will be called before stopping.
 
