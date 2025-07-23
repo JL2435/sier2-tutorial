@@ -1,7 +1,7 @@
 Tutorial part 3 - GUI
 =====================
 
-In this tutorial, we'll build on the dag we build previously to provide
+In this tutorial, we'll build on the dag we built previously to provide
 a GUI interface. We'll be using ``panel``, an open-source Python library
 designed to streamline the development of robust tools, dashboards,
 and complex applications entirely within Python.
